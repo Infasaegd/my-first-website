@@ -1,0 +1,24 @@
+body {background-color: #1a1a1a; font-family: "Pusab", sans-serif; margin: 0; padding: 0;}
+
+/* 1. Thay đổi nền của toàn bộ trang web và căn giữa chữ */
+body {
+    background-color: #1a1a1a;   /* Đổi nền sang màu đen xám huyền bí */
+    color: #ffffff;              /* Đổi toàn bộ chữ mặc định thành màu trắng */
+    font-family: sans-serif;     /* Đổi font chữ nhìn cho hiện đại */
+    text-align: center;          /* Căn chữ ra chính giữa màn hình */
+    padding-top: 50px;
+}
+
+/* 2. Trang trí riêng cho thẻ tiêu đề h1 */
+h1 {
+    color: #f0f0f0;              /* Đổi chữ của tiêu đề h1 thành màu đỏ rực */
+    font-size: 40px;             /* Phóng to kích thước chữ lên 40px */
+    text-transform: uppercase;   /* Tự động viết hoa toàn bộ chữ */
+}
+
+/* 3. Trang trí riêng cho các thẻ đoạn văn p */
+p {
+    color: #f0f0f0;              /* Đổi chữ của đoạn văn thành màu cam */
+    font-size: 20px;             /* Kích thước chữ 20px */
+    font-style: italic;          /* Làm chữ in nghiêng */
+}
